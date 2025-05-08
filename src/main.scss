@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&family=Coral+Pixels&family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@font-face {
+	font-family: 'Coolvetica';
+	src: url(‘/src/fonts/Coolvetica.otf) format(opentype)
+}
+
+body {
+  margin: 0;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 2%;
+}
+
+:root {
+  font-family: Roboto;
+  line-height: 1.5;
+  font-weight: 400;
+  margin: auto;
+  background-color: white;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

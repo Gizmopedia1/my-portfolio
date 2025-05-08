@@ -1,0 +1,10 @@
+.br-responsive {
+  display: none;
+}
+
+/* Small devices (phones, less than 768px) */
+@media (max-width: 768px) {
+  .br-responsive {
+    display: inline;
+  }
+  }

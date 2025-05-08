@@ -1,0 +1,87 @@
+[
+	{
+		"id": "01",
+		"name": "HMTL5",
+		"logo": "/assets/logos/html.png",
+		"percentage": "90",
+		"categories": [
+			"Front-end",
+			"Web"
+		]
+	},
+	{
+		"id": "02",
+		"name": "CSS3",
+		"logo": "/assets/logos/css.png",
+		"percentage": "90",
+		"categories": [
+			"Front-end",
+			"Web"
+		]
+	},
+	{
+		"id": "03",
+		"name": "Javascript",
+		"logo": "/assets/logos/javascript.png",
+		"percentage": "75",
+		"categories": [
+			"Front-end",
+			"Web"
+		]
+	},
+	{
+		"id": "04",
+		"name": "Adobe Premiere Pro",
+		"logo": "/assets/logos/adobe-premiere.png",
+		"percentage": "60",
+		"categories": [
+			"Outils"
+		]
+	},
+	{
+		"id": "05",
+		"name": "Adobe Photoshop",
+		"logo": "/assets/logos/adobe-photoshop.png",
+		"percentage": "75",
+		"categories": [
+			"Outils"
+		]
+	},
+	{
+		"id": "06",
+		"name": "Adobe InDesign",
+		"logo": "/assets/logos/adobe-indesign.png",
+		"percentage": "95",
+		"categories": [
+			"Outils"
+		]
+	},
+	{
+		"id": "07",
+		"name": "Adobe Illustrator",
+		"logo": "/assets/logos/adobe-illustrator.png",
+		"percentage": "50",
+		"categories": [
+			"Outils"
+		]
+	},
+	{
+		"id": "08",
+		"name": "Adobe Audition",
+		"logo": "/assets/logos/adobe-audition.png",
+		"percentage": "75",
+		"categories": [
+			"Outils"
+		]
+	},
+	{
+		"id": "09",
+		"name": "Visual Studio Code",
+		"logo": "/assets/logos/vsc.png",
+		"percentage": "75",
+		"categories": [
+			"Outils"
+		]
+	}
+
+]
