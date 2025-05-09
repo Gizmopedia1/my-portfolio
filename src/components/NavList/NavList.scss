@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: row;
     justify-content: right;
-    gap: 60px;
+    gap: 30px;
 }
 
 .navlist a {
@@ -19,22 +19,21 @@
     text-decoration: underline;
 }
 
-/* Small devices (phones, less than 768px) */
-@media (max-width: 768px) {
+.socials {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
 
-    .navlist {
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        justify-content: right;
-        gap: 26px;
-    }
+.social-link {
+  color: black;
+  transition: color 0.3s ease;
+}
 
-    .navlist a {
-        text-transform: uppercase;        font-size: 24px;
-        font-size: 12px;
-        font-weight: 500;
-        text-decoration: none;
+.social-link.linkedin:hover {
+  color: #0072b1;
+}
 
-    }
+.social-link.github:hover {
+  color: #333;
 }

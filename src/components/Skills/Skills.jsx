@@ -1,14 +1,18 @@
-import React, { useState } from 'react';
 import './Skills.scss'
-import SkillsCard from '../SkillsCard/SkillsCard'
+import SkillsList  from '../SkillsList/SkillsList'
 import competences from '../../data/competences.json';
 
 const Skills = () => {
-    const [items] = useState(competences);
+    const allCategories = Array.from(
+    new Set(
+      competences.flatMap(item => item.category)
+    )
+  );
+
     return (
-        <div className="skills">
-            {items.map(item => (
-                <SkillsCard key={item.id} id={item.id} logo={item.logo} name={item.name} />
+        <div className="skills-container">
+            {allCategories.map(category => (
+                <SkillsList  className="skills-list" key={category} category={category} />
             ))}
         </div>
     );

@@ -11,10 +11,11 @@
     width: 150px;
 }
 
-/* Small devices (phones, less than 768px) */
-@media (max-width: 768px) {
-
-    .kasa-logo {
-        width: 145px;
-    }
+.jb-nav .jb-text {
+    font-family: "Coolvetica", sans-serif;
+    font-size: 50px;
+    text-transform: uppercase;
+    margin: 0;
+    text-decoration: none;
+    color: black;
 }

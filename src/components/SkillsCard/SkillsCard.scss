@@ -1,0 +1,15 @@
+.skill-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.skill-logo {
+    width: 20px;
+}
+
+.skill-name {
+    text-align: center;
+    margin: 0;
+}

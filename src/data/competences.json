@@ -2,86 +2,114 @@
 	{
 		"id": "01",
 		"name": "HMTL5",
-		"logo": "/assets/logos/html.png",
+		"logo": "/my-portfolio//assets/logos/html.png",
 		"percentage": "90",
-		"categories": [
-			"Front-end",
-			"Web"
-		]
+		"category": "Front-end"
 	},
 	{
 		"id": "02",
 		"name": "CSS3",
-		"logo": "/assets/logos/css.png",
+		"logo": "/my-portfolio//assets/logos/css.png",
 		"percentage": "90",
-		"categories": [
-			"Front-end",
-			"Web"
-		]
+		"category": "Front-end"
 	},
 	{
 		"id": "03",
 		"name": "Javascript",
-		"logo": "/assets/logos/javascript.png",
+		"logo": "/my-portfolio//assets/logos/javascript.png",
 		"percentage": "75",
-		"categories": [
-			"Front-end",
-			"Web"
-		]
+		"category": "Front-end"
 	},
 	{
 		"id": "04",
-		"name": "Adobe Premiere Pro",
-		"logo": "/assets/logos/adobe-premiere.png",
-		"percentage": "60",
-		"categories": [
-			"Outils"
-		]
+		"name": "React.js",
+		"logo": "/my-portfolio//assets/logos/react.png",
+		"percentage": "75",
+		"category": "Front-end"
 	},
 	{
 		"id": "05",
-		"name": "Adobe Photoshop",
-		"logo": "/assets/logos/adobe-photoshop.png",
-		"percentage": "75",
-		"categories": [
-			"Outils"
-		]
+		"name": "Wordpress",
+		"logo": "/my-portfolio//assets/logos/wordpress.png",
+		"percentage": "70",
+		"category": "Front-end"
 	},
 	{
 		"id": "06",
-		"name": "Adobe InDesign",
-		"logo": "/assets/logos/adobe-indesign.png",
-		"percentage": "95",
-		"categories": [
-			"Outils"
-		]
+		"name": "Node.js",
+		"logo": "/my-portfolio//assets/logos/node.png",
+		"percentage": "70",
+		"category": "Back-end"
 	},
 	{
 		"id": "07",
-		"name": "Adobe Illustrator",
-		"logo": "/assets/logos/adobe-illustrator.png",
-		"percentage": "50",
-		"categories": [
-			"Outils"
-		]
+		"name": "MongoDB",
+		"logo": "/my-portfolio//assets/logos/mongo.png",
+		"percentage": "70",
+		"category": "Back-end"
 	},
 	{
 		"id": "08",
-		"name": "Adobe Audition",
-		"logo": "/assets/logos/adobe-audition.png",
-		"percentage": "75",
-		"categories": [
-			"Outils"
-		]
-	},
+		"name": "Express",
+		"logo": "/my-portfolio//assets/logos/express.png",
+		"percentage": "70",
+		"category": "Back-end"
+	},	
 	{
 		"id": "09",
 		"name": "Visual Studio Code",
-		"logo": "/assets/logos/vsc.png",
+		"logo": "/my-portfolio//assets/logos/vsc.png",
 		"percentage": "75",
-		"categories": [
-			"Outils"
-		]
+		"category": "Outils"
+	},
+	{
+		"id": "10",
+		"name": "Postman",
+		"logo": "/my-portfolio//assets/logos/postman.png",
+		"percentage": "75",
+		"category": "Outils"
+	},
+	{
+		"id": "11",
+		"name": "GitHub",
+		"logo": "/my-portfolio//assets/logos/github.png",
+		"percentage": "75",
+		"category": "Outils"
+	},
+	{
+		"id": "20",
+		"name": "Adobe Premiere Pro",
+		"logo": "/my-portfolio//assets/logos/adobe-premiere.png",
+		"percentage": "60",
+		"category": "Divers"
+	},
+	{
+		"id": "21",
+		"name": "Adobe Photoshop",
+		"logo": "/my-portfolio//assets/logos/adobe-photoshop.png",
+		"percentage": "75",
+		"category": "Divers"
+	},
+	{
+		"id": "22",
+		"name": "Adobe InDesign",
+		"logo": "/my-portfolio//assets/logos/adobe-indesign.png",
+		"percentage": "95",
+		"category": "Divers"
+	},
+	{
+		"id": "23",
+		"name": "Adobe Illustrator",
+		"logo": "/my-portfolio//assets/logos/adobe-illustrator.png",
+		"percentage": "50",
+		"category": "Divers"
+	},
+	{
+		"id": "24",
+		"name": "Adobe Audition",
+		"logo": "/my-portfolio//assets/logos/adobe-audition.png",
+		"percentage": "75",
+		"category": "Divers"
 	}
 
 ]

@@ -5,7 +5,7 @@ import NavList from '../NavList/NavList'
 function Nav() {
     return (
         <div className='jb-nav'>
-            < a href="/"><img src={JBlogo} alt='Joel B.' className='jb-logo' /></a>
+            <a href="/" className='jb-text'>JB</a>
             <NavList />
         </div>
     )

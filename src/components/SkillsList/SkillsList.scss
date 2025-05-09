@@ -1,0 +1,19 @@
+.skills-category {
+    display: flex;
+    flex-direction: column;
+}
+
+.category {
+    font-size: 25px;
+    margin: 0;
+}
+
+.skills-list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 0;
+    margin-top: 5px;
+    margin-bottom: 15px;
+
+}
