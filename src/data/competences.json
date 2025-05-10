@@ -77,6 +77,13 @@
 		"category": "Outils"
 	},
 	{
+		"id": "12",
+		"name": "Sass",
+		"logo": "/my-portfolio//assets/logos/sass.png",
+		"percentage": "75",
+		"category": "Front-end"
+	},
+	{
 		"id": "20",
 		"name": "Adobe Premiere Pro",
 		"logo": "/my-portfolio//assets/logos/adobe-premiere.png",
@@ -110,6 +117,13 @@
 		"logo": "/my-portfolio//assets/logos/adobe-audition.png",
 		"percentage": "75",
 		"category": "Divers"
+	},
+	{
+		"id": "25",
+		"name": "Responsive Design",
+		"logo": "/my-portfolio//assets/logos/responsive.png",
+		"percentage": "70",
+		"category": "Front-end"
 	}
 
 ]

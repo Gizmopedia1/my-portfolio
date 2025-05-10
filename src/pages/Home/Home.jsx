@@ -1,7 +1,8 @@
 import './Home.scss'
 import Nav from '../../components/Nav/Nav'
 import Intro from '../../components/Intro/Intro'
-import Skills from '../../components/Skills/Skills'
+import MySkills from '../../components/MySkills/MySkills'
+import Projects from '../../components/Projects/Projects'
 
 
 function Home() {
@@ -10,7 +11,8 @@ function Home() {
       <div>
         <Nav />
         <Intro />
-        <Skills />
+        <MySkills />
+        <Projects />
       </div>
     </>
   )

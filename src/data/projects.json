@@ -1,0 +1,57 @@
+[
+	{
+		"id": "2b",
+		"title": "Booki",
+		"cover": "/my-portfolio//assets/projects/booki-cover.png",
+		"pictures": [
+			"/my-portfolio//assets/projects/booki01.png",
+			"/my-portfolio//assets/projects/booki02.png"
+		],
+		"description": "Votre maison loin de chez vous. Que vous veniez de l'autre bout du monde, ou juste de quelques stations de RER, vous vous sentirez chez vous dans notre appartement.",
+		"pagelink": "https://gizmopedia1.github.io/OpenClassrooms-Project02/",
+		"github": "https://github.com/Gizmopedia1/OpenClassrooms-Project02"
+	},
+	{
+		"id": "3c",
+		"title": "Sophie Bluel",
+		"cover": "/my-portfolio//assets/projects/sophiebluel-cover.png",
+		"pictures": [
+			"/my-portfolio//assets/projects/sophiebluel01.png",
+			"/my-portfolio//assets/projects/sophiebluel02.png",
+			"/my-portfolio//assets/projects/sophiebluel03.png",
+			"/my-portfolio//assets/projects/sophiebluel04.png",
+			"/my-portfolio//assets/projects/sophiebluel05.png",
+			"/my-portfolio//assets/projects/sophiebluel06.png",
+			"/my-portfolio//assets/projects/sophiebluel07.png"
+		],
+		"description": "Votre maison loin de chez vous. Que vous veniez de l'autre bout du monde, ou juste de quelques stations de RER, vous vous sentirez chez vous dans notre appartement.",
+		"github": "https://github.com/Gizmopedia1/OpenClassrooms-Project03"
+	},
+	{
+		"id": "5e",
+		"title": "Kasa",
+		"cover": "/my-portfolio//assets/projects/kasa-cover.png",
+		"pictures": [
+			"/my-portfolio//assets/projects/kasa01.png",
+			"/my-portfolio//assets/projects/kasa02.png",
+			"/my-portfolio//assets/projects/kasa03.png",
+			"/my-portfolio//assets/projects/kasa04.png"		
+		],
+		"description": "Votre maison loin de chez vous. Que vous veniez de l'autre bout du monde, ou juste de quelques stations de RER, vous vous sentirez chez vous dans notre appartement.",
+		"pagelink": "https://gizmopedia1.github.io/OpenClassrooms-Project05/",
+		"github": "https://github.com/Gizmopedia1/OpenClassrooms-Project05"
+	},
+	{
+		"id": "6f",
+		"title": "Eteindez la lumière",
+		"cover": "/my-portfolio//assets/projects/eteindez-cover.png",
+		"pictures": [
+			"/my-portfolio//assets/projects/eteindez01.png",
+			"/my-portfolio//assets/projects/eteindez02.png",
+			"/my-portfolio//assets/projects/eteindez03.png",
+			"/my-portfolio//assets/projects/eteindez04.png"		
+		],
+		"description": "Votre maison loin de chez vous. Que vous veniez de l'autre bout du monde, ou juste de quelques stations de RER, vous vous sentirez chez vous dans notre appartement.",
+		"pagelink": "https://eteindezlalumiere.com/"
+	}
+]
