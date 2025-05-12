@@ -8,6 +8,7 @@
 			"/my-portfolio//assets/projects/booki02.png"
 		],
 		"description": "Votre maison loin de chez vous. Que vous veniez de l'autre bout du monde, ou juste de quelques stations de RER, vous vous sentirez chez vous dans notre appartement.",
+		"skills": ["HTML5", "CSS3", "Responsive Design"],
 		"pagelink": "https://gizmopedia1.github.io/OpenClassrooms-Project02/",
 		"github": "https://github.com/Gizmopedia1/OpenClassrooms-Project02"
 	},
@@ -25,6 +26,7 @@
 			"/my-portfolio//assets/projects/sophiebluel07.png"
 		],
 		"description": "Votre maison loin de chez vous. Que vous veniez de l'autre bout du monde, ou juste de quelques stations de RER, vous vous sentirez chez vous dans notre appartement.",
+		"skills": ["HTML5", "CSS3", "Javascript"],
 		"github": "https://github.com/Gizmopedia1/OpenClassrooms-Project03"
 	},
 	{
@@ -38,12 +40,13 @@
 			"/my-portfolio//assets/projects/kasa04.png"		
 		],
 		"description": "Votre maison loin de chez vous. Que vous veniez de l'autre bout du monde, ou juste de quelques stations de RER, vous vous sentirez chez vous dans notre appartement.",
+		"skills": ["React.js", "Sass", "Responsive Design"],
 		"pagelink": "https://gizmopedia1.github.io/OpenClassrooms-Project05/",
 		"github": "https://github.com/Gizmopedia1/OpenClassrooms-Project05"
 	},
 	{
 		"id": "6f",
-		"title": "Eteindez la lumière",
+		"title": "Eteindez la lumière, podcast sur le cinéma",
 		"cover": "/my-portfolio//assets/projects/eteindez-cover.png",
 		"pictures": [
 			"/my-portfolio//assets/projects/eteindez01.png",
@@ -51,7 +54,8 @@
 			"/my-portfolio//assets/projects/eteindez03.png",
 			"/my-portfolio//assets/projects/eteindez04.png"		
 		],
-		"description": "Votre maison loin de chez vous. Que vous veniez de l'autre bout du monde, ou juste de quelques stations de RER, vous vous sentirez chez vous dans notre appartement.",
-		"pagelink": "https://eteindezlalumiere.com/"
+		"description": "Projet personnel. Je suis co-créateur et co-animateur de ce podcast depuis 2016. J'ai conçu le site avec l'outil CMS de Wordpress afin de répertorier tous les épisodes réalisés ainsi que des blogs, des vidéos et autres créations.",
+		"pagelink": "https://eteindezlalumiere.com/",
+		"skills": ["Wordpress", "Adobe Photoshop", "Adobe Audition", "Adobe Premiere Pro", "Responsive Design"]
 	}
 ]

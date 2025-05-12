@@ -1,11 +1,16 @@
 import { useState } from 'react'
 import './Slider.scss'
-import chevronLeft from '../../assets/chevron-left.png'
-import chevronRight from '../../assets/chevron-right.png'
+
+import ReactDOM from 'react-dom'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faChevronLeft } from '@fortawesome/free-solid-svg-icons';
+import { faChevronRight } from '@fortawesome/free-solid-svg-icons';
+
+const chevronLeft = <FontAwesomeIcon icon={faChevronLeft} />
+const chevronRight = <FontAwesomeIcon icon={faChevronRight} />
 
 function Slider ({slides}) {
 	const [currentIndex, setCurrentIndex] = useState(0);
-	const totalIndex = slides.length;
 
 	const prevImage = () => {
 		const isFirstSlide = currentIndex === 0;
@@ -24,19 +29,15 @@ function Slider ({slides}) {
 				{hasMultipleSlides && (
 					<div className='chevron-flex'>
 						<button onClick={prevImage} className='chevron-left' alt='Image précedente'>
-							<img src={chevronLeft} />
+							{chevronLeft}
 						</button>
 						<button onClick={nextImage} className='chevron-right' alt='Image suivante'>
-							<img src={chevronRight} />
+							{chevronRight}
 						</button>
 					</div>
 					)
 				}
 				<img src={slides[currentIndex]} className='slider-image' />
-				{hasMultipleSlides && (
-					<p className='picture-number'>{currentIndex + 1} / {totalIndex}</p>
-					)
-				}
 			</div>
 }
 

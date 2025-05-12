@@ -1,0 +1,15 @@
+.skill-logos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.skill-logo img {
+    width: 50px;
+    height: auto;
+    transition: transform 0.2s ease;
+}
+
+.skill-logo img:hover {
+    transform: scale(1.1);
+}
