@@ -44,7 +44,7 @@
 	{
 		"id": "07",
 		"name": "MongoDB",
-		"logo": "/my-portfolio//assets/logos/mongo.png",
+		"logo": "/my-portfolio//assets/logos/mongodb.png",
 		"percentage": "70",
 		"category": "Back-end"
 	},

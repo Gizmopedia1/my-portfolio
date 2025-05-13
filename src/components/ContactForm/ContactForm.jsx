@@ -45,7 +45,7 @@ export default function Form() {
         <input type="email" id="email" name="email" required onChange={(e) => setEmail(e.target.value)} />
 
         <label htmlFor="message">Votre message</label>
-        <input type="textarea" id="message" name="message" required onChange={(e) => setMessage(e.target.value)} />
+        <input type="text" id="message" name="message" required onChange={(e) => setMessage(e.target.value)} />
 
         <button type="submit">Envoyer!</button>
       </form>}
