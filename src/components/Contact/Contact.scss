@@ -1,15 +1,16 @@
-.my-skills {
+.contact {    
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 50px;
-    padding-bottom: 50px;
-
 }
 
-.my-skills .sous-titre {
+.contact .sous-titre {
     font-family: "Oswald", sans-serif;
     font-size: 2em;
     margin: 0;
     font-weight: 500;
+}
+
+.contact .my-mail {
+    font-size: 20px;
 }

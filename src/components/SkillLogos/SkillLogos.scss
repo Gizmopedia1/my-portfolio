@@ -1,15 +1,27 @@
-.skill-logos {
+.project-skill-logos {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 12px;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 1rem;
 }
 
-.skill-logo img {
-    width: 50px;
-    height: auto;
-    transition: transform 0.2s ease;
+.project-skill-logo {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.skill-logo img:hover {
+.project-skill-logo img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    transition: transform 0.2s ease-in-out;
+}
+
+.project-skill-logo img:hover {
     transform: scale(1.1);
 }

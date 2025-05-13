@@ -1,16 +1,23 @@
-.intro h2 {
-    font-family: "Coolvetica", sans-serif;
-    font-size: 100px;
-    text-transform: uppercase;
-    margin: 0;
+.bio {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
-.intro .sous-titre {
+.bio .sous-titre {
+    text-align: center;
     font-family: "Oswald", sans-serif;
-    font-size: 35px;
+    font-size: 2em;
     margin: 0;
+    font-weight: 500;
 }
 
-.intro .presentation {
-    margin: 0;
+.bio .presentation {
+    width: 60%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
 }

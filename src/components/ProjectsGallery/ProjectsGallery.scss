@@ -1,15 +1,14 @@
 .gallery {
-    background-color: #F6F6F6;
-    width: 100%;
-    border-radius: 25px;
-    margin-bottom: 50px;
-	display: grid;
-	grid-template-columns: 30% 30% 30%;
-	grid-column-gap: 2%;
-	grid-row-gap: 50px;
-	justify-content:space-between;
-    padding: 55px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;  
     box-sizing: border-box;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+
+
 }
 
 .modal-overlay {
@@ -27,19 +26,68 @@
 
 .modal {
     background: white;
-    padding: 20px;
+    padding: 30px;
     border-radius: 10px;
-    max-width: 60%;
-    width: 90%;
+    max-width: 50%;
     position: relative;
 }
 
 .close-btn {
     position: absolute;
-    top: 10px;
-    right: 15px;
-    font-size: 1.5rem;
+    top: 0px;
+    right: 5px;
+    font-size: 2rem;
     border: none;
     background: none;
     cursor: pointer;
+    color: gray;
+    transition: color 0.3s ease;
+}
+
+.close-btn:hover {
+    color: black;
+}
+
+.modal-title {
+    font-family: "Oswald", sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+    margin: 0;
+    text-align: center;
+}
+
+.modal-subtitle {
+    font-family: "Oswald", sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+    margin: 0;
+    text-align: center;
+}
+
+.modal-content {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    font-family: "Roboto", sans-serif;
+    gap: 10px;
+}
+
+.modal-description {
+    width: 60%;
+}
+
+.modal-description-text {
+    font-size: 20px;
+}
+
+.modal-description-list {
+    font-size: 15px;
+}
+
+.skills-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 40%;
 }

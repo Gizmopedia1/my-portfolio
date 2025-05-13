@@ -5,8 +5,10 @@ import NavList from '../NavList/NavList'
 function Nav() {
     return (
         <div className='jb-nav'>
-            <a href="/" className='jb-text'>JB</a>
-            <NavList />
+            <div className='nav'>
+                <a href="/" className='jb-text'>JB</a>
+                <NavList />
+            </div>
         </div>
     )
 }

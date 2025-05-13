@@ -1,10 +1,17 @@
 .skills-category {
     display: flex;
     flex-direction: column;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+
+
 }
 
 .category {
+    font-family: "Oswald", sans-serif;
     font-size: 25px;
+    font-weight: 400;
     margin: 0;
 }
 

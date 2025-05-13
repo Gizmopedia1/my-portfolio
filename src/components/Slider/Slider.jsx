@@ -2,12 +2,6 @@ import { useState } from 'react'
 import './Slider.scss'
 
 import ReactDOM from 'react-dom'
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faChevronLeft } from '@fortawesome/free-solid-svg-icons';
-import { faChevronRight } from '@fortawesome/free-solid-svg-icons';
-
-const chevronLeft = <FontAwesomeIcon icon={faChevronLeft} />
-const chevronRight = <FontAwesomeIcon icon={faChevronRight} />
 
 function Slider ({slides}) {
 	const [currentIndex, setCurrentIndex] = useState(0);
@@ -29,10 +23,10 @@ function Slider ({slides}) {
 				{hasMultipleSlides && (
 					<div className='chevron-flex'>
 						<button onClick={prevImage} className='chevron-left' alt='Image précedente'>
-							{chevronLeft}
+							<p className='chevron'>⟨</p>
 						</button>
 						<button onClick={nextImage} className='chevron-right' alt='Image suivante'>
-							{chevronRight}
+							<p className='chevron'>⟩</p>
 						</button>
 					</div>
 					)
