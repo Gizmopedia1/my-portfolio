@@ -1,15 +1,24 @@
-.contact {    
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
+.contact-section {
+    background-color: black;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
-.contact .sous-titre {
+.contact-section .sous-titre {
     font-family: "Oswald", sans-serif;
     font-size: 2em;
     margin: 0;
     font-weight: 500;
 }
+
+.contact {    
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
 
 .contact .my-mail {
     font-size: 20px;

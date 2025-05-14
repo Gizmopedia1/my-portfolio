@@ -1,0 +1,23 @@
+.arrow-top {
+    position: fixed;
+    z-index: 3;
+    right: 50px;
+    bottom: 50px;
+}
+
+.arrow-top a {
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 50%;
+}
+
+.arrow-top a:hover {
+    color: white;
+    background-color: black;
+}

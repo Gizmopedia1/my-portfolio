@@ -5,6 +5,7 @@ import Bio from '../../components/Bio/Bio'
 import MySkills from '../../components/MySkills/MySkills'
 import Projects from '../../components/Projects/Projects'
 import Contact from '../../components/Contact/Contact'
+import ArrowTop from '../../components/ArrowTop/ArrowTop'
 import Footer from '../../components/Footer/Footer'
 
 
@@ -18,6 +19,7 @@ function Home() {
         <Projects />
         <MySkills />
         <Contact />
+        <ArrowTop />
       </div>
       <Footer />
     </>

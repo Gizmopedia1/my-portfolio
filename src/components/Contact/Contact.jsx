@@ -1,14 +1,16 @@
 import './Contact.scss'
+import ContactForm  from '../ContactForm/ContactForm'
+import Socials  from '../Socials/Socials'
 
 function Contact() {
     return (
-        <>
-        <div className='contact' id='contact'>
-            <h2 className='sous-titre'>Contactez-moi!</h2>
-            <a href="mailto:jbisselele.dev@gmail.com?subject=Message depuis le portfolio" className='my-mail'>jbisselele.dev@gmail.com</a>
-
-        </div>
-        </>
+        <section className='contact-section' id='contact'>
+            <div className='contact'>
+                <h2 className='sous-titre'>Contactez-moi!</h2>
+                <ContactForm />
+                <Socials />
+            </div>
+        </section>
     )
 }
 

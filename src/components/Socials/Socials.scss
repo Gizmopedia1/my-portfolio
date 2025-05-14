@@ -1,0 +1,50 @@
+.my-socials {
+  margin-top: 50px;
+    justify-content: center;
+}
+
+.my-socials a {
+    color: black;
+    background-color: white;
+    font-size: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 50%;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.my-socials a:hover {
+    color: grey;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.my-socials {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.my-socials-link {
+  color: black;
+  transition: color 0.3s ease;
+  transition: background-color 0.3s ease;
+}
+
+.my-socials-link.email:hover {
+    color: white;
+    background-color: grey;
+}
+
+.my-socials-link.linkedin:hover {
+    color: white;
+    background-color: #0072b1;
+}
+
+.my-socials-link.github:hover {
+  background-color: #333;
+  color: white;
+}
