@@ -4,12 +4,12 @@ import NavList from '../NavList/NavList'
 
 function Nav() {
     return (
-        <div className='jb-nav'>
+        <header className='jb-nav'>
             <div className='nav'>
                 <a href="/" className='jb-text'>JB</a>
                 <NavList />
             </div>
-        </div>
+        </header>
     )
 }
 

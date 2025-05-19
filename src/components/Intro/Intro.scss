@@ -35,3 +35,29 @@
     margin-right: auto;
 
 }
+
+/****** Media queries ***********/
+/* Medium devices (tablets, less/equal than 1024px) */
+@media (max-width: 1024px) {
+    .intro {
+        text-align: center;
+    }
+
+}
+/* Small devices (phones, less than 768px) */
+@media (max-width: 768px) {
+.intro h1 {
+    font-size: 4.5em;
+
+}
+
+.intro .sous-titre {
+    font-size: 1.75em;
+
+}
+
+.intro .presentation {
+    font-size: 1em;
+
+}
+}

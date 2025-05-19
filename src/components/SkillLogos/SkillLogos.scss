@@ -4,7 +4,6 @@
     gap: 12px;
     justify-content: flex-start;
     align-items: center;
-    margin-top: 1rem;
 }
 
 .project-skill-logo {
@@ -24,4 +23,31 @@
 
 .project-skill-logo img:hover {
     transform: scale(1.1);
+}
+
+/****** Media queries ***********/
+/* Medium devices (tablets, less/equal than 1024px) */
+@media (max-width: 1024px) {
+
+
+}
+
+
+/* Small devices (phones, less than 768px) */
+@media (max-width: 768px) {
+
+    .project-skill-logos {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .project-skill-logo {
+        width: 2em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }

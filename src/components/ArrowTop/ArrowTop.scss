@@ -1,8 +1,8 @@
 .arrow-top {
     position: fixed;
     z-index: 3;
-    right: 50px;
-    bottom: 50px;
+    right: 2em;
+    bottom: 2em;
 }
 
 .arrow-top a {
@@ -20,4 +20,16 @@
 .arrow-top a:hover {
     color: white;
     background-color: black;
+}
+
+/****** Media queries ***********/
+/* Medium devices (tablets, less/equal than 1024px) */
+@media (max-width: 1024px) {
+
+
+}
+
+
+/* Small devices (phones, less than 768px) */
+@media (max-width: 768px) {
 }

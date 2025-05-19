@@ -42,30 +42,32 @@ const ProjectsGallery = () => {
                 <ProjectCard key={item.id} id={item.id} cover={item.cover} title={item.title} alt={item.title} onClick={() => handleCardClick(item.id)} />
             ))}
             {selectedItem && (
-                <div className="modal-overlay" onClick={closeModal}>
+                <aside className="modal-overlay" onClick={closeModal}>
                     <div className="modal" onClick={(e) => e.stopPropagation()}>
                         <button className="close-btn" onClick={closeModal}>×</button>
-                        <Slider slides={selectedItem.pictures}/>
-                        <h3 className='modal-title'>{selectedItem.title}</h3>
-                        <p className='modal-subtitle'>{selectedItem.subtitle}</p>
                         <div className='modal-content'>
-                            <div className='modal-description'>
-                                <p className='modal-description-text'>{selectedItem.description}</p>
-                                {selectedItem.objectives && selectedItem.objectives.length > 0 && (
-                                    <ul className="modal-description-list">
-                                        {selectedItem.objectives.map((objective, index) => (
-                                        <li key={index}>{objective}</li>
-                                        ))}
-                                    </ul>
-                                )}
-                            </div>
-                            <div className='skills-buttons'>
-                                <SkillLogos skillNames={selectedItem.skills} />
-                                <ButtonWebsite website={selectedItem.pagelink} github={selectedItem.github} />
+                            <Slider slides={selectedItem.pictures}/>
+                            <h3 className='modal-title'>{selectedItem.title}</h3>
+                            <p className='modal-subtitle'>{selectedItem.subtitle}</p>
+                            <div className='modal-description-skills-buttons'>
+                                <div className='modal-description'>
+                                    <p className='modal-description-text'>{selectedItem.description}</p>
+                                    {selectedItem.objectives && selectedItem.objectives.length > 0 && (
+                                        <ul className="modal-description-list">
+                                            {selectedItem.objectives.map((objective, index) => (
+                                            <li key={index}>{objective}</li>
+                                            ))}
+                                        </ul>
+                                    )}
+                                </div>
+                                <div className='skills-buttons'>
+                                    <SkillLogos skillNames={selectedItem.skills} />
+                                    <ButtonWebsite website={selectedItem.pagelink} github={selectedItem.github} />
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                </aside>
             )}
         </div>
     );

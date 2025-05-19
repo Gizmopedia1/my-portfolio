@@ -21,3 +21,13 @@
     margin-right: auto;
 
 }
+
+.bio a {
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+}
+
+.bio a:hover {
+    text-decoration: underline;
+}

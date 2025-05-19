@@ -37,3 +37,40 @@
 .social-link.github:hover {
   color: #333;
 }
+
+/****** Media queries ***********/
+/* Medium devices (tablets, less/equal than 1024px) */
+@media (max-width: 1024px) {
+  .navlist {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    gap: 30px;
+  }
+
+  .navlist a {
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+}
+
+
+/* Small devices (phones, less than 768px) */
+@media (max-width: 768px) {
+  .navlist {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      gap: 2em;
+  }
+
+  .navlist a {
+    font-size: 1em;
+}
+
+}

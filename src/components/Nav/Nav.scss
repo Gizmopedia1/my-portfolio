@@ -21,12 +21,38 @@
 .jb-text {
     padding-top: 1%;
     padding-bottom: 1%;
-}
-
-.jb-text {
     font-family: "Coolvetica", sans-serif;
     font-size: 50px;
     text-transform: uppercase;
     text-decoration: none;
     color: white;
+}
+
+
+/****** Media queries ***********/
+/* Medium devices (tablets, less/equal than 1024px) */
+@media (max-width: 1024px) {
+    .nav {
+        max-width: 1024px;
+        margin-left: 2%;
+        margin-right: 2%;
+
+    }
+}
+/* Small devices (phones, less than 768px) */
+@media (max-width: 768px) {
+    .nav {
+        max-width: 1200px;
+        display: flex;
+        flex-direction: column;
+        align-content: space-between;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .jb-text {
+        font-size: 6em;
+    }
+
 }

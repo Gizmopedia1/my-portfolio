@@ -8,12 +8,14 @@ const ButtonWebsite = ({ website, github }) => {
         <div className="link-buttons">
             {website && (
                 <button className="button" onClick={() => window.open(website, '_blank')}>
-                    Visitez le site <FontAwesomeIcon icon={faLink} />
+                    <p>Visitez le site</p>
+                    <FontAwesomeIcon icon={faLink} />
                 </button>
             )}
             {github && (
                 <button className="button" onClick={() => window.open(github, '_blank')}>
-                    GitHub <FontAwesomeIcon icon={faGithub} />
+                    <p>GitHub</p>
+                    <FontAwesomeIcon icon={faGithub} />
                 </button>
             )}
         </div>
