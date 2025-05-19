@@ -13,14 +13,14 @@ function Home() {
   return (
     <>
       <Nav />
-      <div className='main-container'>
+      <main className='main-container'>
         <Intro />
         <Bio />
         <Projects />
         <MySkills />
         <Contact />
         <ArrowTop />
-      </div>
+      </main>
       <Footer />
     </>
   )
