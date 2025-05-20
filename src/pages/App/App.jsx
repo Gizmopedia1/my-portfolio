@@ -12,8 +12,6 @@ function App() {
     <div>
       <Routes>
         <Route path="/my-portfolio" element={<Home />} />
-            {/* <Route path="/404" element={<Page404 />} />
-            <Route path="*" element={<Page404 />} /> */}
       </Routes>
     </div>
 
