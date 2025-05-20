@@ -102,7 +102,11 @@
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
-
+    .gallery {
+        box-sizing: border-box;
+        margin-left: 1em;
+        margin-right: 1em;
+    }
 
 }
 
