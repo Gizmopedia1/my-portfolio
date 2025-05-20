@@ -53,12 +53,12 @@
 			"/my-portfolio//assets/projects/kasa04.png"		
 		],
 		"description": "Création d'une application web avec React pour un site de location d'appartements. L'affichage de chaque location est dynamique.",
-		"skills": ["React.js", "Sass", "Responsive Design"],
+		"skills": ["React.js", "Vite", "Sass", "Responsive Design"],
 		"pagelink": "https://gizmopedia1.github.io/OpenClassrooms-Project05/",
 		"github": "https://github.com/Gizmopedia1/OpenClassrooms-Project05",
 		"objectives": [
 			"Création du routeur",
-			"Création des différentes pagez de l'appication",
+			"Création des différentes pages de l'appication",
 			"Création d'un carrousel dans la page de logement",
 			"Gestion des erreurs et de la page 404",
 			"Mise en place du responsive design"
@@ -66,6 +66,27 @@
 	},
 	{
 		"id": "6f",
+		"title": "Mon portfolio",
+		"cover": "/my-portfolio//assets/projects/portfolio.png",
+		"pictures": [
+			"/my-portfolio//assets/projects/portfolio01.png",
+			"/my-portfolio//assets/projects/portfolio02.png",
+			"/my-portfolio//assets/projects/portfolio03.png"
+		],
+		"description": "Réalisation de mon portfolio dans le cadre de la fin de ma formation.",
+		"pagelink": "https://gizmopedia1.github.io/my-portfolio/",
+		"github": "https://github.com/Gizmopedia1/my-portfolio",
+		"skills": ["React.js", "Vite", "Sass", "Adobe Photoshop", "Responsive Design"],
+		"objectives": [
+			"Création du routeur",
+			"Création de la modale",
+			"Création d'un carrousel dans la modale de projet",
+			"Mise en place du responsive design"
+		]
+
+	},
+	{
+		"id": "7g",
 		"title": "Eteindez la lumière",
 		"subtitle": "Podcast sur le cinéma",
 		"cover": "/my-portfolio//assets/projects/eteindez.png",
