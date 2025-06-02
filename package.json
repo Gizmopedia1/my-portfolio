@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "predeploy": "npm run build && npm run copy404",
-    "copy404": "copy dist\\index.html dist\\404.html",
+    "copy404": "cp dist/index.html dist/404.html",
     "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
