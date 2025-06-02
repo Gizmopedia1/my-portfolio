@@ -6,7 +6,7 @@ function Nav() {
     return (
         <header className='jb-nav'>
             <div className='nav'>
-                <a href="/" className='jb-text'>JB</a>
+                <p className='jb-text'>JB</p>
                 <NavList />
             </div>
         </header>
