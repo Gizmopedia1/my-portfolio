@@ -9,12 +9,9 @@ import Home from '../Home/Home.jsx'
 
 function App() {
   return (
-    <div>
       <Routes>
-        <Route element={<Home />} />
+        <Route path="/" element={<Home />} />
       </Routes>
-    </div>
-
   )
 }
 
