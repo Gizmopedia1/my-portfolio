@@ -7,7 +7,7 @@ function Footer() {
 
             </div>
             <p className='jb-logo'>JB</p>
-            {/* <p className='copyright'>© 2025 Joël Bisselele. Tous droits réservés.</p> */}
+            {/* <p className='copyright'>© 2025 Joël Bisselele. Réalisé avec React et Sass.</p> */}
         </footer>
     )
 }
