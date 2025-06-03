@@ -1,12 +1,44 @@
-[
+import BookiCover from '../my-portfolio//assets/projects/booki.png';
+import BluelCover from '../assets/projects/sophiebluel.png';
+import KasaCover from '../assets/projects/kasa.png';
+import PortfolioCover from '../assets/projects/portfolio.png';
+import EteindezCover from '../assets/projects/eteindez.png';
+
+import booki01 from '../my-portfolio//assets/projects/booki01.png';
+import booki02 from '../assets/projects/projects/booki02.png';
+
+import sophiebluel01 from '../my-portfolio//assets/projects/sophiebluel01.png';
+import sophiebluel02 from '../my-portfolio//assets/projects/sophiebluel02.png';
+import sophiebluel03 from '../my-portfolio//assets/projects/sophiebluel03.png';
+import sophiebluel04 from '../my-portfolio//assets/projects/sophiebluel04.png';
+import sophiebluel05 from '../my-portfolio//assets/projects/sophiebluel05.png';
+import sophiebluel06 from '../my-portfolio//assets/projects/sophiebluel06.png';
+import sophiebluel07 from '../my-portfolio//assets/projects/sophiebluel07.png';
+
+import kasa01 from '../assets/projects/kasa01.png';
+import kasa02 from '../assets/projects/kasa02.png';
+import kasa03 from '../assets/projects/kasa03.png';
+import kasa04 from '../assets/projects/kasa04.png';
+
+import portfolio01 from '../assets/projects/portfolio01.png';
+import portfolio02 from '../assets/projects/portfolio02.png';
+import portfolio03 from '../assets/projects/portfolio03.png';
+
+import eteindez01 from '../assets/projects/eteindez01.png';
+import eteindez02 from '../assets/projects/eteindez02.png';
+import eteindez03 from '../assets/projects/eteindez03.png';
+import eteindez04 from '../assets/projects/eteindez04.png';
+
+
+export default [
 	{
 		"id": "2b",
 		"title": "OpenClassrooms - Projet n°2",
 		"subtitle": "Création d'une page d'accueil d'une agence de voyage avec HTML & CSS",
-		"cover": "/my-portfolio//assets/projects/booki.png",
+		"cover": BookiCover,
 		"pictures": [
-			"/my-portfolio//assets/projects/booki01.png",
-			"/my-portfolio//assets/projects/booki02.png"
+			booki01,
+			booki02
 		],
 		"description": "Intégration responsive de la maquette de Booki, site d'agence de voyage.",
 		"skills": ["HTML5", "CSS3", "Responsive Design"],
@@ -21,15 +53,15 @@
 		"id": "3c",
 		"title": "OpenClassrooms - Projet n°3",
 		"subtitle": "Création d'une page web dynamique avec JavaScript",
-		"cover": "/my-portfolio//assets/projects/sophiebluel.png",
+		"cover": BluelCover,
 		"pictures": [
-			"/my-portfolio//assets/projects/sophiebluel01.png",
-			"/my-portfolio//assets/projects/sophiebluel02.png",
-			"/my-portfolio//assets/projects/sophiebluel03.png",
-			"/my-portfolio//assets/projects/sophiebluel04.png",
-			"/my-portfolio//assets/projects/sophiebluel05.png",
-			"/my-portfolio//assets/projects/sophiebluel06.png",
-			"/my-portfolio//assets/projects/sophiebluel07.png"
+			sophiebluel01,
+			sophiebluel02,
+			sophiebluel03,
+			sophiebluel04,
+			sophiebluel05,
+			sophiebluel06,
+			sophiebluel07
 		],
 		"description": "Développement de la page de présentation des travaux d'une architecte, de la page de connexion administrateur et d'une modale permettant d'uploader de nouveaux médias.",
 		"skills": ["HTML5", "CSS3", "Javascript"],
@@ -45,12 +77,12 @@
 		"id": "5e",
 		"title": "OpenClassrooms - Projet n°5",
 		"subtitle": "Création d'une application web de location immobilière avec React",
-		"cover": "/my-portfolio//assets/projects/kasa.png",
+		"cover": KasaCover,
 		"pictures": [
-			"/my-portfolio//assets/projects/kasa01.png",
-			"/my-portfolio//assets/projects/kasa02.png",
-			"/my-portfolio//assets/projects/kasa03.png",
-			"/my-portfolio//assets/projects/kasa04.png"		
+			kasa01,
+			kasa02,
+			kasa03,
+			kasa04
 		],
 		"description": "Création d'une application web avec React pour un site de location d'appartements. L'affichage de chaque location est dynamique.",
 		"skills": ["React.js", "Vite", "Sass", "Responsive Design"],
@@ -67,11 +99,11 @@
 	{
 		"id": "6f",
 		"title": "Mon portfolio",
-		"cover": "/my-portfolio//assets/projects/portfolio.png",
+		"cover": PortfolioCover,
 		"pictures": [
-			"/my-portfolio//assets/projects/portfolio01.png",
-			"/my-portfolio//assets/projects/portfolio02.png",
-			"/my-portfolio//assets/projects/portfolio03.png"
+			portfolio01,
+			portfolio02,
+			portfolio03
 		],
 		"description": "Réalisation de mon portfolio dans le cadre de la fin de ma formation.",
 		"pagelink": "https://gizmopedia1.github.io/my-portfolio/",
@@ -89,12 +121,12 @@
 		"id": "7g",
 		"title": "Eteindez la lumière",
 		"subtitle": "Podcast sur le cinéma",
-		"cover": "/my-portfolio//assets/projects/eteindez.png",
+		"cover": EteindezCover,
 		"pictures": [
-			"/my-portfolio//assets/projects/eteindez01.png",
-			"/my-portfolio//assets/projects/eteindez02.png",
-			"/my-portfolio//assets/projects/eteindez03.png",
-			"/my-portfolio//assets/projects/eteindez04.png"		
+			eteindez01,
+			eteindez02,
+			eteindez03,
+			eteindez04		
 		],
 		"description": "Projet personnel. Je suis co-créateur et co-animateur de ce podcast depuis 2016. J'ai conçu ce site avec l'outil CMS de Wordpress afin de répertorier tous les épisodes réalisés ainsi que des blogs, des vidéos et autres créations.",
 		"pagelink": "https://eteindezlalumiere.com/",

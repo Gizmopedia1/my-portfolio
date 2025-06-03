@@ -3,7 +3,7 @@ import './ProjectsGallery.scss'
 import ProjectCard from '../ProjectCard/ProjectCard'
 import Slider from '../Slider/Slider'
 import SkillLogos from '../SkillLogos/SkillLogos'
-import Projects from '../../data/Projects.json';
+import Projects from '../../data/ProjectsData.js';
 import ButtonWebsite from '../ButtonWebsite/ButtonWebsite'
 
 

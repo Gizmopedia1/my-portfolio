@@ -10,6 +10,7 @@ import Footer from '../../components/Footer/Footer'
 
 
 function Home() {
+  console.log("Home component loaded");
   return (
     <>
       <Nav />
