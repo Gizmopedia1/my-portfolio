@@ -1,19 +1,19 @@
-import BookiCover from '../my-portfolio//assets/projects/booki.png';
+import BookiCover from '../assets/projects/booki.png';
 import BluelCover from '../assets/projects/sophiebluel.png';
 import KasaCover from '../assets/projects/kasa.png';
 import PortfolioCover from '../assets/projects/portfolio.png';
 import EteindezCover from '../assets/projects/eteindez.png';
 
-import booki01 from '../my-portfolio//assets/projects/booki01.png';
-import booki02 from '../assets/projects/projects/booki02.png';
+import booki01 from '../assets/projects/booki01.png';
+import booki02 from '../assets/projects/booki02.png';
 
-import sophiebluel01 from '../my-portfolio//assets/projects/sophiebluel01.png';
-import sophiebluel02 from '../my-portfolio//assets/projects/sophiebluel02.png';
-import sophiebluel03 from '../my-portfolio//assets/projects/sophiebluel03.png';
-import sophiebluel04 from '../my-portfolio//assets/projects/sophiebluel04.png';
-import sophiebluel05 from '../my-portfolio//assets/projects/sophiebluel05.png';
-import sophiebluel06 from '../my-portfolio//assets/projects/sophiebluel06.png';
-import sophiebluel07 from '../my-portfolio//assets/projects/sophiebluel07.png';
+import sophiebluel01 from '../assets/projects/sophiebluel01.png';
+import sophiebluel02 from '../assets/projects/sophiebluel02.png';
+import sophiebluel03 from '../assets/projects/sophiebluel03.png';
+import sophiebluel04 from '../assets/projects/sophiebluel04.png';
+import sophiebluel05 from '../assets/projects/sophiebluel05.png';
+import sophiebluel06 from '../assets/projects/sophiebluel06.png';
+import sophiebluel07 from '../assets/projects/sophiebluel07.png';
 
 import kasa01 from '../assets/projects/kasa01.png';
 import kasa02 from '../assets/projects/kasa02.png';
@@ -106,7 +106,7 @@ export default [
 			portfolio03
 		],
 		"description": "Réalisation de mon portfolio dans le cadre de la fin de ma formation.",
-		"pagelink": "https://gizmopedia1.github.io/my-portfolio/",
+		"pagelink": "https://gizmopedia1.github.io/",
 		"github": "https://github.com/Gizmopedia1/my-portfolio",
 		"skills": ["React.js", "Vite", "Sass", "Adobe Photoshop", "Responsive Design"],
 		"objectives": [
