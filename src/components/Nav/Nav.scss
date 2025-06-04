@@ -21,11 +21,7 @@
 .jb-text {
     padding-top: 1%;
     padding-bottom: 1%;
-    font-family: "Coolvetica", sans-serif;
-    font-size: 50px;
-    text-transform: uppercase;
-    text-decoration: none;
-    color: white;
+    height: 3em;
 }
 
 
@@ -41,6 +37,9 @@
 }
 /* Small devices (phones, less than 768px) */
 @media (max-width: 768px) {
+    .jb-nav {
+    position: relative;
+}
     .nav {
         max-width: 1200px;
         display: flex;
@@ -52,7 +51,10 @@
     }
 
     .jb-text {
-        font-size: 6em;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        margin-top: 1em;
+        margin-bottom: 1em;
     }
 
 }

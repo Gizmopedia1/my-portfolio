@@ -1,3 +1,4 @@
+import JBlogo from '../../assets/logo-white.png'
 import './Footer.scss'
 
 function Footer() {
@@ -6,8 +7,8 @@ function Footer() {
             <div className='contacts'>
 
             </div>
-            <p className='jb-logo'>JB</p>
-            {/* <p className='copyright'>© 2025 Joël Bisselele. Réalisé avec React et Sass.</p> */}
+                <img src={JBlogo} className="jb-logo" />
+                <p className='copyright'>© 2025 Joël Bisselele. Réalisé avec React et Sass.</p>
         </footer>
     )
 }
