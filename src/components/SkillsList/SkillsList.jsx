@@ -1,6 +1,6 @@
 import './SkillsList.scss'
 import SkillsCard from '../SkillsCard/SkillsCard'
-import competences from '../../data/competences.json';
+import competences from '../../data/SkillsData.js';
 
 const SkillsList = ({ category }) => {
   const filteredItems = competences.filter(item =>item.category.includes(category));

@@ -1,5 +1,5 @@
 import React from 'react';
-import competences from '../../data/competences.json';
+import competences from '../../data/SkillsData.js';
 import './SkillLogos.scss'
 
 const SkillLogos = ({ skillNames = [] }) => {

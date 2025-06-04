@@ -1,134 +1,154 @@
-[
+import html from '../assets/logos/html.png';
+import css from '../assets/logos/css.png';
+import javascript from '../assets/logos/javascript.png';
+import react from '../assets/logos/react.png';
+import wordpress from '../assets/logos/wordpress.png';
+import node from '../assets/logos/node.png';
+import mongodb from '../assets/logos/mongodb.png';
+import express from '../assets/logos/express.png';
+import vsc from '../assets/logos/vsc.png';
+import postman from '../assets/logos/postman.png';
+import github from '../assets/logos/github.png';
+import sass from '../assets/logos/sass.png';
+import vite from '../assets/logos/vite.png';
+import premiere from '../assets/logos/adobe-premiere.png';
+import photoshop from '../assets/logos/adobe-photoshop.png';
+import indesign from '../assets/logos/adobe-indesign.png';
+import illustrator from '../assets/logos/adobe-illustrator.png';
+import audition from '../assets/logos/adobe-audition.png';
+import responsive from '../assets/logos/responsive.png';
+
+export default [
 	{
 		"id": "01",
 		"name": "HTML5",
-		"logo": "/my-portfolio/assets/logos/html.png",
+		"logo": html,
 		"percentage": "90",
 		"category": "Front-end"
 	},
 	{
 		"id": "02",
 		"name": "CSS3",
-		"logo": "/my-portfolio/assets/logos/css.png",
+		"logo": css,
 		"percentage": "90",
 		"category": "Front-end"
 	},
 	{
 		"id": "03",
 		"name": "Javascript",
-		"logo": "/my-portfolio/assets/logos/javascript.png",
+		"logo": javascript,
 		"percentage": "75",
 		"category": "Front-end"
 	},
 	{
 		"id": "04",
 		"name": "React.js",
-		"logo": "/my-portfolio/assets/logos/react.png",
+		"logo": react,
 		"percentage": "75",
 		"category": "Front-end"
 	},
 	{
 		"id": "05",
 		"name": "Wordpress",
-		"logo": "/my-portfolio/assets/logos/wordpress.png",
+		"logo": wordpress,
 		"percentage": "70",
 		"category": "Front-end"
 	},
 	{
 		"id": "06",
 		"name": "Node.js",
-		"logo": "/my-portfolio/assets/logos/node.png",
+		"logo": node,
 		"percentage": "70",
 		"category": "Back-end"
 	},
 	{
 		"id": "07",
 		"name": "MongoDB",
-		"logo": "/my-portfolio/assets/logos/mongodb.png",
+		"logo": mongodb,
 		"percentage": "70",
 		"category": "Back-end"
 	},
 	{
 		"id": "08",
 		"name": "Express",
-		"logo": "/my-portfolio/assets/logos/express.png",
+		"logo": express,
 		"percentage": "70",
 		"category": "Back-end"
 	},	
 	{
 		"id": "09",
 		"name": "Visual Studio Code",
-		"logo": "/my-portfolio/assets/logos/vsc.png",
+		"logo": vsc,
 		"percentage": "75",
 		"category": "Outils"
 	},
 	{
 		"id": "10",
 		"name": "Postman",
-		"logo": "/my-portfolio/assets/logos/postman.png",
+		"logo": postman,
 		"percentage": "75",
 		"category": "Outils"
 	},
 	{
 		"id": "11",
 		"name": "GitHub",
-		"logo": "/my-portfolio/assets/logos/github.png",
+		"logo": github,
 		"percentage": "75",
 		"category": "Outils"
 	},
 	{
 		"id": "12",
 		"name": "Sass",
-		"logo": "/my-portfolio/assets/logos/sass.png",
+		"logo": sass,
 		"percentage": "75",
 		"category": "Front-end"
 	},
 	{
 		"id": "13",
 		"name": "Vite",
-		"logo": "/my-portfolio/assets/logos/vite.png",
+		"logo": vite,
 		"percentage": "75",
 		"category": "Front-end"
 	},
 	{
 		"id": "20",
 		"name": "Adobe Premiere Pro",
-		"logo": "/my-portfolio/assets/logos/adobe-premiere.png",
+		"logo": premiere,
 		"percentage": "60",
 		"category": "Divers"
 	},
 	{
 		"id": "21",
 		"name": "Adobe Photoshop",
-		"logo": "/my-portfolio/assets/logos/adobe-photoshop.png",
+		"logo": photoshop,
 		"percentage": "75",
 		"category": "Divers"
 	},
 	{
 		"id": "22",
 		"name": "Adobe InDesign",
-		"logo": "/my-portfolio/assets/logos/adobe-indesign.png",
+		"logo": indesign,
 		"percentage": "95",
 		"category": "Divers"
 	},
 	{
 		"id": "23",
 		"name": "Adobe Illustrator",
-		"logo": "/my-portfolio/assets/logos/adobe-illustrator.png",
+		"logo": illustrator,
 		"percentage": "50",
 		"category": "Divers"
 	},
 	{
 		"id": "24",
 		"name": "Adobe Audition",
-		"logo": "/my-portfolio/assets/logos/adobe-audition.png",
+		"logo": audition,
 		"percentage": "75",
 		"category": "Divers"
 	},
 	{
 		"id": "25",
 		"name": "Responsive Design",
-		"logo": "/my-portfolio/assets/logos/responsive.png",
+		"logo": responsive,
 		"percentage": "70",
 		"category": "Front-end"
 	}

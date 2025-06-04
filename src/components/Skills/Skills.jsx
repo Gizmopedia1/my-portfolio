@@ -1,6 +1,6 @@
 import './Skills.scss'
 import SkillsList  from '../SkillsList/SkillsList'
-import competences from '../../data/competences.json';
+import competences from '../../data/SkillsData.js';
 
 const Skills = () => {
     const allCategories = Array.from(
