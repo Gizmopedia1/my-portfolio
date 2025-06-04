@@ -7,7 +7,7 @@ function Footer() {
             <div className='contacts'>
 
             </div>
-                <img src={JBlogo} className="jb-logo" />
+                <img src={JBlogo} alt='Logo JB blanc' className="jb-logo" />
                 <p className='copyright'>© 2025 Joël Bisselele. Réalisé avec React et Sass.</p>
         </footer>
     )
