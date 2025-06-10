@@ -13,7 +13,7 @@ function MySkills() {
         <div className='my-skills'>
             <h2 className='sous-titre'>Mes compétences</h2>
             <Skills />
-            <a href={PDF} className='download-btn' download="joel-bisselele-CV">{logoPDF} Télécharger CV</a>
+            <a href={PDF} className='download-btn' title='Lien de téléchargement du CV en PDF' download="joel-bisselele-CV">{logoPDF} Télécharger CV</a>
         </div>
     )
 }
