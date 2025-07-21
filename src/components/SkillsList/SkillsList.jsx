@@ -1,9 +1,15 @@
 import './SkillsList.scss'
 import SkillsCard from '../SkillsCard/SkillsCard'
-import competences from '../../data/SkillsData.js';
+import SkillsFR from '../../data/SkillsData.fr.js';
+import SkillsEN from '../../data/SkillsData.en.js';
+import { useTranslation } from 'react-i18next';
 
 const SkillsList = ({ category }) => {
-  const filteredItems = competences.filter(item =>item.category.includes(category));
+    const { i18n } = useTranslation();
+    
+    const competences = i18n.language === 'fr' ? SkillsFR : SkillsEN;
+
+    const filteredItems = competences.filter(item =>item.category.includes(category));
 
     return (
             <div className="skills-category">

@@ -38,6 +38,30 @@
   color: #333;
 }
 
+.lang-buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+.lang-toggle {
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    background: none;
+    padding: 0 5px;
+}
+
+.lang-toggle:hover {
+    color: grey;
+}
+
+.lang-toggle.active {
+    font-weight: 700;
+}
+
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {

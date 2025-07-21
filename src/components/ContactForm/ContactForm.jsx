@@ -1,11 +1,14 @@
 import React, { useState } from "react";
 import "./ContactForm.scss"
+import { useTranslation } from 'react-i18next';
+
 
 export default function Form() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
   const [successMessage, setSuccessMessage] = useState("");
+  const { t } = useTranslation();
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -38,16 +41,16 @@ export default function Form() {
   return (
     <>
       {successMessage.length == 0 && <form onSubmit={handleSubmit} className="form">
-        <label htmlFor="name">Votre nom</label>
+        <label htmlFor="name">{t('form_yourname')}</label>
         <input type="text" id="name" name="name" required onChange={(e) => setName(e.target.value)} />
 
-        <label htmlFor="email">Votre email</label>
+        <label htmlFor="email">{t('form_yourmail')}</label>
         <input type="email" id="email" name="email" required onChange={(e) => setEmail(e.target.value)} />
 
-        <label htmlFor="message">Votre message</label>
+        <label htmlFor="message">{t('form_yourmessage')}</label>
         <textarea type="textarea" id="message" name="message" required onChange={(e) => setMessage(e.target.value)} />
 
-        <button type="submit">Envoyer!</button>
+        <button type="submit">{t('form_send')}</button>
       </form>}
 
       {successMessage.length > 0 && <p>{successMessage}</p>}

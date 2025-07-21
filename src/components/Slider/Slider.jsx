@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './Slider.scss'
+import { useTranslation } from 'react-i18next';
 
 import ReactDOM from 'react-dom'
 

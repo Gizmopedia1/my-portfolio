@@ -1,6 +1,7 @@
 import React from 'react';
-import competences from '../../data/SkillsData.js';
+import competences from '../../data/SkillsData.fr.js';
 import './SkillLogos.scss'
+import { useTranslation } from 'react-i18next';
 
 const SkillLogos = ({ skillNames = [] }) => {
     const filteredSkills = competences.filter(skill => skillNames.includes(skill.name));

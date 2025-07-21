@@ -1,5 +1,6 @@
 import React from 'react';
 import './SkillsCard.scss'
+import { useTranslation } from 'react-i18next';
 
 
 const SkillsCard = ({ logo, name }) => {

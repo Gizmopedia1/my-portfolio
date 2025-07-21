@@ -1,6 +1,7 @@
 import React from 'react';
 import './ProjectCard.scss'
 import background from '../../assets/bg.png'
+import { useTranslation } from 'react-i18next';
 
 
 const ProjectCard = ({ cover, title, onClick }) => {

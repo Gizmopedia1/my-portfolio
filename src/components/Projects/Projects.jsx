@@ -1,5 +1,6 @@
 import './Projects.scss'
 import ProjectsGallery from '../ProjectsGallery/ProjectsGallery'
+import { useTranslation } from 'react-i18next';
 
 
 function Projects() {

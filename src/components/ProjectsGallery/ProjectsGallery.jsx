@@ -3,14 +3,18 @@ import './ProjectsGallery.scss'
 import ProjectCard from '../ProjectCard/ProjectCard'
 import Slider from '../Slider/Slider'
 import SkillLogos from '../SkillLogos/SkillLogos'
-import Projects from '../../data/ProjectsData.js';
+import ProjectsFR from '../../data/ProjectsData.fr.js';
+import ProjectsEN from '../../data/ProjectsData.en.js';
 import ButtonWebsite from '../ButtonWebsite/ButtonWebsite'
+import { useTranslation } from 'react-i18next';
 
 
 
 const ProjectsGallery = () => {
-    const [items] = useState(Projects);
+    const { i18n } = useTranslation();
     const [selectedItem, setSelectedItem] = useState(null);
+
+    const items = i18n.language === 'fr' ? ProjectsFR : ProjectsEN;
 
     const handleCardClick = (id) => {
         const project = items.find(item => item.id === id);

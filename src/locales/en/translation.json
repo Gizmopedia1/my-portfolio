@@ -1,0 +1,30 @@
+{
+  "navlist_bio": "About me",
+  "navlist_portfolio": "Portfolio",
+  "navlist_contact": "Contact",
+  "intro_subtitle": "Front-End Developer",
+  "intro_text": "Passionate about the web and constantly seeking new opportunities to grow and innovate.",
+  "bio_subtitle": "About me",
+  "bio_text1": "Hello! I'm Joel. Currently looking to change my career after completing my Web Development training with OpenClassrooms. I learned the basics of web languages (HTML, CSS, JavaScript), as well as API creation, data management, site optimization and creation with React. In addition, having a bachelor’s degree in Graphic Production, I am also proficient in tools like Photoshop, Illustrator, and InDesign.",
+  "bio_text2": "I'm tech-savvy and driven by a constantly growing curiosity. My passion for front-end development, especially with React, drives me to explore new possibilities. Below are some of the projects I've had the opportunity to work on during my studies.",
+  "bio_text3": "Concurrently, I'm a film enthusiast and co-creator of Eteindez la lumière, a podcast dedicated to cinema. In this independent project, I wear several hats: co-host, editor and website maintenance manager.",
+  "projects_subtitle": "Projects",
+  "myskills_subtitle": "Skills",
+  "contact_subtitle": "Contact me",
+  "download_cv": "Download resume",
+  "download_cv_title": "Downloak link for the PDF resume",
+  "contact": "Contact-me!",
+  "socials_email_title": "Send me a mail!",
+  "socials_linkedin_title": "Linkedin page",
+  "socials_github_title": "Github page",
+  "arrowtop_alt": "Back to top",
+  "footer_copyright": "© 2025 Joël Bisselele",
+  "JBlogo": "White JB logo",
+  "visitwebsite_button": "Visit website",
+  "form_yourname": "Your name",
+  "form_yourmail": "Your mail",
+  "form_yourmessage": "Your message",
+  "form_send": "Send"
+  
+
+}
